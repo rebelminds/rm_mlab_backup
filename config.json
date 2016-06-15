@@ -1,0 +1,27 @@
+{
+  "sesTransport": {
+    "to": "YOUR_EMAIL",
+    "from": "SES_TRANSPORT_SERVER_EMAIL",
+    "key": "SES_TRANSPORT_SERVER_KEY",
+    "secret": "SES_TRANSPORT_SERVER_SECRET",
+    "region": "SES_TRANSPORT_SERVER_REGION"
+  },
+  "mongodb": {
+    "host": "SERVER NAME",
+    "port": "PORT_NUMBER",
+    "username": "USERNAME",
+    "password": "PASSWORD",
+    "db": "DATABASE_TO_BACKUP"
+  },
+  "s3": {
+    "key": "YOUR_S3_KEY",
+    "secret": "YOUR_S3_SECRET",
+    "bucket": "SS_BUCKET_TO_UPLOAD_TO",
+    "destination": "/",
+    "encrypt": true,
+    "region": "S3_REGION_TO_USE"
+  },
+  "cron": {
+    "time": "02:00"
+  }
+}

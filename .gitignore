@@ -3,6 +3,5 @@ node_modules/
 *.orig
 .DS_Store
 *.working
-config.json
 npm-debug.log
 *.project
